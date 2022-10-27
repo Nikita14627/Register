@@ -74,3 +74,14 @@ toggleBtn.onclick = function(){
 
     }
 }
+
+toggleBtn2.onclick = function(){
+    if (pswrd2.type == 'password'){
+        pswrd2.setAttribute('type','text');
+        toggleBtn2.classList.add('hide');
+    } else {
+        pswrd2.setAttribute('type','password');
+        toggleBtn2.classList.remove('hide');
+
+    }
+}

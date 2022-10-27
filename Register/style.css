@@ -239,10 +239,10 @@ body
     font-size: 1em;
     color: #333;
 }
-.login .block .inputBlock #toggleBtn
+.login .block .inputBlock #toggleBtn 
 {
     position: absolute;
-    top: 8px;
+    top: 7px;
     right: 10px;
     width: 34px;
     height: 34px;
@@ -262,6 +262,46 @@ body
 {
     content: '\f070';
 }
+
+
+.login .block .inputBlock #toggleBtn2 
+{
+    position: absolute;
+    top: 46px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    background: rgba(0,0,0,0.05);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .block .inputBlock #toggleBtn2::before
+{
+    content: '\f06e';
+    font-family: fontAwesome;
+}
+.login .block .inputBlock #toggleBtn2.hide::before
+{
+    content: '\f070';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .validation
 {
     background: #376488;
